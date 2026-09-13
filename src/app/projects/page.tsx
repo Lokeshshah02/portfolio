@@ -33,7 +33,7 @@ export default function ProjectsIndex() {
               <div className="flex gap-4">
                 {frontmatter.githubUrl && (
                   <a href={frontmatter.githubUrl} className="text-text-secondary hover:text-primary transition-colors" aria-label="GitHub">
-                    <Github size={20} />
+                    <Github width={20} height={20} />
                   </a>
                 )}
                 {frontmatter.liveUrl && (
